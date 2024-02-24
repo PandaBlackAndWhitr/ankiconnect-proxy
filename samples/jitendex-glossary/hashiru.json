@@ -1,0 +1,815 @@
+{
+  div: {
+    '$': { style: 'text-align: left;' },
+    i: [ '(priority-form, ★, Jitendex.org [2024-02-18])' ],
+    span: [
+      {
+        ul: [
+          {
+            '$': { lang: 'ja', style: 'list-style-type: "＊";' },
+            li: [
+              {
+                span: [
+                  {
+                    _: '5-dan',
+                    '$': {
+                      'data-sc-code': 'v5r',
+                      title: "Godan verb with 'ru' ending",
+                      style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: rgb(86, 86, 86); vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                    }
+                  },
+                  {
+                    _: 'intransitive',
+                    '$': {
+                      'data-sc-code': 'vi',
+                      title: 'intransitive verb',
+                      style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: rgb(86, 86, 86); vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                    }
+                  }
+                ],
+                ol: [
+                  {
+                    li: [
+                      {
+                        '$': { style: 'list-style-type: "① ";' },
+                        ul: [
+                          {
+                            '$': {
+                              'data-sc-content': 'glossary',
+                              style: 'padding-left: 0px; list-style-type: none;'
+                            },
+                            li: [ 'to run' ]
+                          },
+                          {
+                            '$': {
+                              style: 'margin-bottom: 0.5em; list-style-type: none;'
+                            },
+                            li: [
+                              {
+                                _: 'あのをごらんなさい。',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-a',
+                                  lang: 'ja',
+                                  style: 'font-size: 130%; border-style: none none none solid; border-radius: 0.4rem 0px 0px; margin-top: 0.5rem; padding-left: 0.75rem;'
+                                },
+                                span: [
+                                  {
+                                    '$': {
+                                      'data-sc-content': 'example-keyword'
+                                    },
+                                    ruby: [
+                                      {
+                                        _: '走ってる',
+                                        rt: [
+                                          {
+                                            span: [
+                                              {
+                                                _: '●●●●',
+                                                '$': {
+                                                  style: 'color: crimson;'
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    _: '[1]',
+                                    '$': {
+                                      style: 'font-size: 0.5em; color: rgb(119, 119, 119); vertical-align: super; margin-left: -0.25em;'
+                                    }
+                                  }
+                                ],
+                                ruby: [
+                                  { _: '少', rt: [ 'しょう' ] },
+                                  { _: '年', rt: [ 'ねん' ] }
+                                ]
+                              },
+                              {
+                                _: 'Look at that boy running.',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-b',
+                                  lang: 'en',
+                                  style: 'font-size: 80%; border-style: none none none solid; border-radius: 0px 0px 0px 0.4rem; padding-left: 0.75rem;'
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        '$': { style: 'list-style-type: "② ";' },
+                        ul: [
+                          {
+                            '$': { 'data-sc-content': 'glossary' },
+                            li: [
+                              'to run (of a vehicle)',
+                              'to drive',
+                              'to travel',
+                              'to move',
+                              'to sail'
+                            ]
+                          },
+                          {
+                            '$': {
+                              style: 'margin-bottom: 0.5em; list-style-type: none;'
+                            },
+                            li: [
+                              {
+                                _: 'このはほどに。',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-a',
+                                  lang: 'ja',
+                                  style: 'font-size: 130%; border-style: none none none solid; border-radius: 0.4rem 0px 0px; margin-top: 0.5rem; padding-left: 0.75rem;'
+                                },
+                                ruby: [
+                                  { _: '車', rt: [ 'くるま' ] },
+                                  { _: '以', rt: [ 'い' ] },
+                                  { _: '前', rt: [ 'ぜん' ] },
+                                  { _: '快', rt: [ 'かい' ] },
+                                  { _: '調', rt: [ 'ちょう' ] }
+                                ],
+                                span: [
+                                  {
+                                    '$': {
+                                      'data-sc-content': 'example-keyword'
+                                    },
+                                    ruby: [
+                                      {
+                                        _: '走らない',
+                                        rt: [
+                                          {
+                                            span: [
+                                              {
+                                                _: '●●●●',
+                                                '$': {
+                                                  style: 'color: crimson;'
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    _: '[2]',
+                                    '$': {
+                                      style: 'font-size: 0.5em; color: rgb(119, 119, 119); vertical-align: super; margin-left: -0.25em;'
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                _: 'This car is running less smoothly than it used to.',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-b',
+                                  lang: 'en',
+                                  style: 'font-size: 80%; border-style: none none none solid; border-radius: 0px 0px 0px 0.4rem; padding-left: 0.75rem;'
+                                }
+                              },
+                              {
+                                _: 'この列車は東京と大阪の間を。',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-a',
+                                  lang: 'ja',
+                                  style: 'font-size: 130%; border-style: none none none solid; border-radius: 0.4rem 0px 0px; margin-top: 0.5rem; padding-left: 0.75rem;'
+                                },
+                                span: [
+                                  {
+                                    '$': {
+                                      'data-sc-content': 'example-keyword'
+                                    },
+                                    ruby: [
+                                      {
+                                        _: '走ります',
+                                        rt: [
+                                          {
+                                            span: [
+                                              {
+                                                _: '●●●●',
+                                                '$': {
+                                                  style: 'color: crimson;'
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    _: '[3]',
+                                    '$': {
+                                      style: 'font-size: 0.5em; color: rgb(119, 119, 119); vertical-align: super; margin-left: -0.25em;'
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                _: 'This train runs between Tokyo and Osaka.',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-b',
+                                  lang: 'en',
+                                  style: 'font-size: 80%; border-style: none none none solid; border-radius: 0px 0px 0px 0.4rem; padding-left: 0.75rem;'
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        '$': { style: 'list-style-type: "③ ";' },
+                        ul: [
+                          {
+                            '$': { 'data-sc-content': 'glossary' },
+                            li: [ 'to rush (to)', 'to dash', 'to race' ]
+                          },
+                          {
+                            '$': {
+                              style: 'margin-bottom: 0.5em; list-style-type: none;'
+                            },
+                            li: [
+                              {
+                                _: 'はバスをしてに。',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-a',
+                                  lang: 'ja',
+                                  style: 'font-size: 130%; border-style: none none none solid; border-radius: 0.4rem 0px 0px; margin-top: 0.5rem; padding-left: 0.75rem;'
+                                },
+                                ruby: [
+                                  { _: '彼', rt: [ 'かれ' ] },
+                                  { _: '目', rt: [ 'め' ] },
+                                  { _: '指', rt: [ 'ざ' ] },
+                                  { _: '懸', rt: [ 'けん' ] },
+                                  { _: '命', rt: [ 'めい' ] }
+                                ],
+                                span: [
+                                  {
+                                    '$': {
+                                      'data-sc-content': 'example-keyword'
+                                    },
+                                    ruby: [
+                                      {
+                                        _: '走った',
+                                        rt: [
+                                          {
+                                            span: [
+                                              {
+                                                _: '●●●',
+                                                '$': {
+                                                  style: 'color: crimson;'
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    _: '[4]',
+                                    '$': {
+                                      style: 'font-size: 0.5em; color: rgb(119, 119, 119); vertical-align: super; margin-left: -0.25em;'
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                _: 'He made a dash for the bus.',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-b',
+                                  lang: 'en',
+                                  style: 'font-size: 80%; border-style: none none none solid; border-radius: 0px 0px 0px 0.4rem; padding-left: 0.75rem;'
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        '$': { style: 'list-style-type: "④ ";' },
+                        ul: [
+                          {
+                            '$': { 'data-sc-content': 'glossary' },
+                            li: [
+                              'to retreat',
+                              'to flee',
+                              'to defect (to)'
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        '$': { style: 'list-style-type: "⑤ ";' },
+                        ul: [
+                          {
+                            '$': { 'data-sc-content': 'glossary' },
+                            li: [ 'to run away', 'to abscond', 'to elope' ]
+                          },
+                          {
+                            '$': {
+                              style: 'margin-bottom: 0.5em; list-style-type: none;'
+                            },
+                            li: [
+                              {
+                                _: 'occ. 奔る',
+                                '$': {
+                                  'data-sc-content': 'sense-note',
+                                  style: 'margin-top: 0.5em; list-style-type: "📝 ";'
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        '$': { style: 'list-style-type: "⑥ ";' },
+                        ul: [
+                          {
+                            '$': { 'data-sc-content': 'glossary' },
+                            li: [
+                              'to flash (of lightning)',
+                              'to streak',
+                              'to shoot (through; e.g. of pain)',
+                              'to run (through)',
+                              'to flare',
+                              "to flit (e.g. across one's face)",
+                              'to spread quickly (of news, shock, etc.)'
+                            ]
+                          },
+                          {
+                            '$': {
+                              style: 'margin-bottom: 0.5em; list-style-type: none;'
+                            },
+                            li: [
+                              {
+                                _: '稲妻がたびに、犬はベッドの下に隠れた。',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-a',
+                                  lang: 'ja',
+                                  style: 'font-size: 130%; border-style: none none none solid; border-radius: 0.4rem 0px 0px; margin-top: 0.5rem; padding-left: 0.75rem;'
+                                },
+                                span: [
+                                  {
+                                    '$': {
+                                      'data-sc-content': 'example-keyword'
+                                    },
+                                    ruby: [
+                                      {
+                                        _: '走る',
+                                        rt: [
+                                          {
+                                            span: [
+                                              {
+                                                _: '●●',
+                                                '$': {
+                                                  style: 'color: crimson;'
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    _: '[5]',
+                                    '$': {
+                                      style: 'font-size: 0.5em; color: rgb(119, 119, 119); vertical-align: super; margin-left: -0.25em;'
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                _: 'The dog hid under the bed whenever lightning flashed.',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-b',
+                                  lang: 'en',
+                                  style: 'font-size: 80%; border-style: none none none solid; border-radius: 0px 0px 0px 0.4rem; padding-left: 0.75rem;'
+                                }
+                              },
+                              {
+                                _: 'えがを。',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-a',
+                                  lang: 'ja',
+                                  style: 'font-size: 130%; border-style: none none none solid; border-radius: 0.4rem 0px 0px; margin-top: 0.5rem; padding-left: 0.75rem;'
+                                },
+                                ruby: [
+                                  { _: '震', rt: [ 'ふる' ] },
+                                  { _: '背', rt: [ 'せ' ] },
+                                  { _: '筋', rt: [ 'すじ' ] }
+                                ],
+                                span: [
+                                  {
+                                    '$': {
+                                      'data-sc-content': 'example-keyword'
+                                    },
+                                    ruby: [
+                                      {
+                                        _: '走った',
+                                        rt: [
+                                          {
+                                            span: [
+                                              {
+                                                _: '●●●',
+                                                '$': {
+                                                  style: 'color: crimson;'
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    _: '[6]',
+                                    '$': {
+                                      style: 'font-size: 0.5em; color: rgb(119, 119, 119); vertical-align: super; margin-left: -0.25em;'
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                _: 'A shiver ran down my spine.',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-b',
+                                  lang: 'en',
+                                  style: 'font-size: 80%; border-style: none none none solid; border-radius: 0px 0px 0px 0.4rem; padding-left: 0.75rem;'
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        '$': { style: 'list-style-type: "⑦ ";' },
+                        ul: [
+                          {
+                            '$': { 'data-sc-content': 'glossary' },
+                            li: [
+                              'to go (e.g. bad, to extremes)',
+                              'to become',
+                              'to turn',
+                              'to take to (e.g. crime)',
+                              "to get carried away by (e.g. one's emotions)",
+                              'to get involved in',
+                              'to get wrapped up in'
+                            ]
+                          },
+                          {
+                            '$': {
+                              style: 'margin-bottom: 0.5em; list-style-type: none;'
+                            },
+                            li: [
+                              {
+                                _: 'as 〜に走る; occ. 趨る',
+                                '$': {
+                                  'data-sc-content': 'sense-note',
+                                  style: 'margin-top: 0.5em; list-style-type: "📝 ";'
+                                }
+                              },
+                              {
+                                _: 'えられないかられるためににたちもいる。',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-a',
+                                  lang: 'ja',
+                                  style: 'font-size: 130%; border-style: none none none solid; border-radius: 0.4rem 0px 0px; margin-top: 0.5rem; padding-left: 0.75rem;'
+                                },
+                                ruby: [
+                                  { _: '耐', rt: [ 'た' ] },
+                                  { _: '圧', rt: [ 'あっ' ] },
+                                  { _: '迫', rt: [ 'ぱく' ] },
+                                  { _: '逃', rt: [ 'のが' ] },
+                                  { _: '自', rt: [ 'じ' ] },
+                                  { _: '殺', rt: [ 'さつ' ] },
+                                  { _: '子', rt: [ 'こ' ] },
+                                  { _: '供', rt: [ 'ども' ] }
+                                ],
+                                span: [
+                                  {
+                                    '$': {
+                                      'data-sc-content': 'example-keyword'
+                                    },
+                                    ruby: [
+                                      {
+                                        _: '走る',
+                                        rt: [
+                                          {
+                                            span: [
+                                              {
+                                                _: '●●',
+                                                '$': {
+                                                  style: 'color: crimson;'
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    _: '[7]',
+                                    '$': {
+                                      style: 'font-size: 0.5em; color: rgb(119, 119, 119); vertical-align: super; margin-left: -0.25em;'
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                _: 'Some children resort to suicide in order to escape from unbearable pressure.',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-b',
+                                  lang: 'en',
+                                  style: 'font-size: 80%; border-style: none none none solid; border-radius: 0px 0px 0px 0.4rem; padding-left: 0.75rem;'
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        '$': { style: 'list-style-type: "⑧ ";' },
+                        ul: [
+                          {
+                            '$': { 'data-sc-content': 'glossary' },
+                            li: [
+                              'to run (through; of a road, street, etc.)',
+                              'to extend (e.g. of a mountain range)',
+                              'to stretch',
+                              'to lie'
+                            ]
+                          },
+                          {
+                            '$': {
+                              style: 'margin-bottom: 0.5em; list-style-type: none;'
+                            },
+                            li: [
+                              {
+                                _: 'はくねくねとのを。',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-a',
+                                  lang: 'ja',
+                                  style: 'font-size: 130%; border-style: none none none solid; border-radius: 0.4rem 0px 0px; margin-top: 0.5rem; padding-left: 0.75rem;'
+                                },
+                                ruby: [
+                                  { _: '道', rt: [ 'みち' ] },
+                                  { _: '畑', rt: [ 'はたけ' ] },
+                                  { _: '中', rt: [ 'なか' ] }
+                                ],
+                                span: [
+                                  {
+                                    '$': {
+                                      'data-sc-content': 'example-keyword'
+                                    },
+                                    ruby: [
+                                      {
+                                        _: '走っていた',
+                                        rt: [
+                                          {
+                                            span: [
+                                              {
+                                                _: '●●●●●',
+                                                '$': {
+                                                  style: 'color: crimson;'
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    _: '[8]',
+                                    '$': {
+                                      style: 'font-size: 0.5em; color: rgb(119, 119, 119); vertical-align: super; margin-left: -0.25em;'
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                _: 'The road wound through the fields.',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-b',
+                                  lang: 'en',
+                                  style: 'font-size: 80%; border-style: none none none solid; border-radius: 0px 0px 0px 0.4rem; padding-left: 0.75rem;'
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                '$': { 'data-sc-content': 'forms' },
+                span: [
+                  {
+                    _: 'forms',
+                    '$': {
+                      title: 'spelling and reading variants',
+                      style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: rgb(86, 86, 86); vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                    }
+                  }
+                ],
+                div: [
+                  {
+                    '$': { style: 'font-size: 1.2em; margin-top: 0.2em;' },
+                    div: [
+                      {
+                        '$': { style: 'display:block;' },
+                        table: [
+                          {
+                            '$': {
+                              style: 'table-layout:auto;border-collapse:collapse;'
+                            },
+                            tr: [
+                              {
+                                th: [
+                                  {
+                                    '$': {
+                                      style: 'font-weight:bold;border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;font-weight: normal; text-align: center;'
+                                    }
+                                  },
+                                  {
+                                    _: '走る',
+                                    '$': {
+                                      style: 'font-weight:bold;border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;font-weight: normal; text-align: center;'
+                                    }
+                                  },
+                                  {
+                                    _: '奔る',
+                                    '$': {
+                                      style: 'font-weight:bold;border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;font-weight: normal; text-align: center;'
+                                    }
+                                  },
+                                  {
+                                    _: '疾る',
+                                    '$': {
+                                      style: 'font-weight:bold;border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;font-weight: normal; text-align: center;'
+                                    }
+                                  },
+                                  {
+                                    _: '趨る',
+                                    '$': {
+                                      style: 'font-weight:bold;border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;font-weight: normal; text-align: center;'
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                th: [
+                                  {
+                                    _: 'はしる',
+                                    '$': {
+                                      style: 'font-weight:bold;border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;font-weight: normal;'
+                                    }
+                                  }
+                                ],
+                                td: [
+                                  {
+                                    '$': {
+                                      style: 'border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;text-align: center;'
+                                    },
+                                    span: [
+                                      {
+                                        _: '優',
+                                        '$': {
+                                          title: 'high priority form',
+                                          style: 'color: white; background-color: green; border-color: green; border-style: solid; border-radius: 100%; border-width: 0.75px; padding: 0.15em 0.15em 0.05em; cursor: help;'
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    '$': {
+                                      style: 'border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;text-align: center;'
+                                    },
+                                    span: [
+                                      {
+                                        _: '稀',
+                                        '$': {
+                                          title: 'rarely used form',
+                                          style: 'color: white; background-color: purple; border-color: purple; border-style: solid; border-radius: 100%; border-width: 0.75px; padding: 0.15em 0.15em 0.05em; cursor: help;'
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    '$': {
+                                      style: 'border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;text-align: center;'
+                                    },
+                                    span: [
+                                      {
+                                        _: '稀',
+                                        '$': {
+                                          title: 'rarely used form',
+                                          style: 'color: white; background-color: purple; border-color: purple; border-style: solid; border-radius: 100%; border-width: 0.75px; padding: 0.15em 0.15em 0.05em; cursor: help;'
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    '$': {
+                                      style: 'border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;text-align: center;'
+                                    },
+                                    span: [
+                                      {
+                                        _: '稀',
+                                        '$': {
+                                          title: 'rarely used form',
+                                          style: 'color: white; background-color: purple; border-color: purple; border-style: solid; border-radius: 100%; border-width: 0.75px; padding: 0.15em 0.15em 0.05em; cursor: help;'
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        div: [
+          {
+            _: 'sources:  | Tatoeba ',
+            '$': {
+              'data-sc-content': 'attribution',
+              style: 'font-size: 0.7em; text-align: right;'
+            },
+            a: [
+              {
+                '$': {
+                  href: 'https://www.edrdg.org/jmwsgi/entr.py?svc=jmdict&q=1402540'
+                },
+                span: [ 'JMdict', { '$': { style: 'display:none;' } } ]
+              },
+              {
+                '$': {
+                  href: 'https://tatoeba.org/en/sentences/show/230641'
+                },
+                span: [ '[1]', { '$': { style: 'display:none;' } } ]
+              },
+              {
+                '$': {
+                  href: 'https://tatoeba.org/en/sentences/show/221403'
+                },
+                span: [ '[2]', { '$': { style: 'display:none;' } } ]
+              },
+              {
+                '$': {
+                  href: 'https://tatoeba.org/en/sentences/show/219160'
+                },
+                span: [ '[3]', { '$': { style: 'display:none;' } } ]
+              },
+              {
+                '$': {
+                  href: 'https://tatoeba.org/en/sentences/show/111274'
+                },
+                span: [ '[4]', { '$': { style: 'display:none;' } } ]
+              },
+              {
+                '$': {
+                  href: 'https://tatoeba.org/en/sentences/show/190010'
+                },
+                span: [ '[5]', { '$': { style: 'display:none;' } } ]
+              },
+              {
+                '$': {
+                  href: 'https://tatoeba.org/en/sentences/show/144698'
+                },
+                span: [ '[6]', { '$': { style: 'display:none;' } } ]
+              },
+              {
+                '$': {
+                  href: 'https://tatoeba.org/en/sentences/show/137950'
+                },
+                span: [ '[7]', { '$': { style: 'display:none;' } } ]
+              },
+              {
+                '$': {
+                  href: 'https://tatoeba.org/en/sentences/show/207423'
+                },
+                span: [ '[8]', { '$': { style: 'display:none;' } } ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

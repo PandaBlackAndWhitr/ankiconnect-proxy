@@ -1,0 +1,573 @@
+{
+  div: {
+    '$': { style: 'text-align: left;' },
+    i: [ '(priority-form, ★, Jitendex.org [2024-02-18])' ],
+    span: [
+      {
+        ul: [
+          {
+            '$': { lang: 'ja', style: 'list-style-type: "＊";' },
+            li: [
+              {
+                span: [
+                  {
+                    _: 'adjective',
+                    '$': {
+                      'data-sc-code': 'adj-i',
+                      title: 'adjective (keiyoushi)',
+                      style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: rgb(86, 86, 86); vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                    }
+                  }
+                ],
+                ol: [
+                  {
+                    li: [
+                      {
+                        '$': { style: 'list-style-type: "① ";' },
+                        ul: [
+                          {
+                            '$': { 'data-sc-content': 'glossary' },
+                            li: [
+                              'fast',   'quick',
+                              'rapid',  'swift',
+                              'speedy', 'brisk',
+                              'prompt'
+                            ]
+                          },
+                          {
+                            '$': {
+                              style: 'margin-bottom: 0.5em; list-style-type: none;'
+                            },
+                            li: [
+                              {
+                                _: 'esp. 速い',
+                                '$': {
+                                  'data-sc-content': 'sense-note',
+                                  style: 'margin-top: 0.5em; list-style-type: "📝 ";'
+                                }
+                              },
+                              {
+                                _: 'あれはでもです。',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-a',
+                                  lang: 'ja',
+                                  style: 'font-size: 130%; border-style: none none none solid; border-radius: 0.4rem 0px 0px; margin-top: 0.5rem; padding-left: 0.75rem;'
+                                },
+                                ruby: [
+                                  { _: '世', rt: [ 'せ' ] },
+                                  { _: '界', rt: [ 'かい' ] },
+                                  { _: '最', rt: [ 'もっと' ] },
+                                  { _: '電', rt: [ 'でん' ] },
+                                  { _: '車', rt: [ 'しゃ' ] }
+                                ],
+                                span: [
+                                  {
+                                    '$': {
+                                      'data-sc-content': 'example-keyword'
+                                    },
+                                    ruby: [
+                                      {
+                                        _: '速い',
+                                        rt: [
+                                          {
+                                            span: [
+                                              {
+                                                _: '●●',
+                                                '$': {
+                                                  style: 'color: crimson;'
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    _: '[1]',
+                                    '$': {
+                                      style: 'font-size: 0.5em; color: rgb(119, 119, 119); vertical-align: super; margin-left: -0.25em;'
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                _: 'That is the fastest train in the world.',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-b',
+                                  lang: 'en',
+                                  style: 'font-size: 80%; border-style: none none none solid; border-radius: 0px 0px 0px 0.4rem; padding-left: 0.75rem;'
+                                }
+                              },
+                              {
+                                _: 'はが。',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-a',
+                                  lang: 'ja',
+                                  style: 'font-size: 130%; border-style: none none none solid; border-radius: 0.4rem 0px 0px; margin-top: 0.5rem; padding-left: 0.75rem;'
+                                },
+                                ruby: [
+                                  { _: '子', rt: [ 'こ' ] },
+                                  { _: '供', rt: [ 'ども' ] },
+                                  { _: '成', rt: [ 'せい' ] },
+                                  { _: '長', rt: [ 'ちょう' ] }
+                                ],
+                                span: [
+                                  {
+                                    '$': {
+                                      'data-sc-content': 'example-keyword'
+                                    },
+                                    ruby: [
+                                      {
+                                        _: '早い',
+                                        rt: [
+                                          {
+                                            span: [
+                                              {
+                                                _: '●●',
+                                                '$': {
+                                                  style: 'color: crimson;'
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    _: '[2]',
+                                    '$': {
+                                      style: 'font-size: 0.5em; color: rgb(119, 119, 119); vertical-align: super; margin-left: -0.25em;'
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                _: 'Children grow very quickly.',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-b',
+                                  lang: 'en',
+                                  style: 'font-size: 80%; border-style: none none none solid; border-radius: 0px 0px 0px 0.4rem; padding-left: 0.75rem;'
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                span: [
+                  {
+                    _: 'adjective',
+                    '$': {
+                      'data-sc-code': 'adj-i',
+                      title: 'adjective (keiyoushi)',
+                      style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: rgb(86, 86, 86); vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                    }
+                  },
+                  {
+                    _: '早い only',
+                    '$': {
+                      title: 'valid only for these forms and/or readings',
+                      style: 'cursor: help;'
+                    },
+                    span: [
+                      { _: '〔', '$': { style: 'color: crimson;' } },
+                      { _: '〕', '$': { style: 'color: crimson;' } }
+                    ]
+                  }
+                ],
+                ol: [
+                  {
+                    li: [
+                      {
+                        '$': { style: 'list-style-type: "② ";' },
+                        ul: [
+                          {
+                            '$': { 'data-sc-content': 'glossary' },
+                            li: [ 'early', 'soon', 'earlier than usual' ]
+                          },
+                          {
+                            '$': {
+                              style: 'margin-bottom: 0.5em; list-style-type: none;'
+                            },
+                            li: [
+                              {
+                                _: 'はのれが。',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-a',
+                                  lang: 'ja',
+                                  style: 'font-size: 130%; border-style: none none none solid; border-radius: 0.4rem 0px 0px; margin-top: 0.5rem; padding-left: 0.75rem;'
+                                },
+                                ruby: [
+                                  { _: '今', rt: [ 'こ' ] },
+                                  { _: '年', rt: [ 'とし' ] },
+                                  { _: '春', rt: [ 'はる' ] },
+                                  { _: '訪', rt: [ 'おとず' ] }
+                                ],
+                                span: [
+                                  {
+                                    '$': {
+                                      'data-sc-content': 'example-keyword'
+                                    },
+                                    ruby: [
+                                      {
+                                        _: '早かった',
+                                        rt: [
+                                          {
+                                            span: [
+                                              {
+                                                _: '●●●●',
+                                                '$': {
+                                                  style: 'color: crimson;'
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    _: '[3]',
+                                    '$': {
+                                      style: 'font-size: 0.5em; color: rgb(119, 119, 119); vertical-align: super; margin-left: -0.25em;'
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                _: 'Spring has come early this year.',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-b',
+                                  lang: 'en',
+                                  style: 'font-size: 80%; border-style: none none none solid; border-radius: 0px 0px 0px 0.4rem; padding-left: 0.75rem;'
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        '$': { style: 'list-style-type: "③ ";' },
+                        ul: [
+                          {
+                            '$': { 'data-sc-content': 'glossary' },
+                            li: [ 'premature', 'too soon', 'too early' ]
+                          },
+                          {
+                            '$': {
+                              style: 'margin-bottom: 0.5em; list-style-type: none;'
+                            },
+                            li: [
+                              {
+                                _: 'それをするのはまだ。',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-a',
+                                  lang: 'ja',
+                                  style: 'font-size: 130%; border-style: none none none solid; border-radius: 0.4rem 0px 0px; margin-top: 0.5rem; padding-left: 0.75rem;'
+                                },
+                                ruby: [
+                                  { _: '今', rt: [ 'いま' ] },
+                                  { _: '論', rt: [ 'ろん' ] },
+                                  { _: '議', rt: [ 'ぎ' ] }
+                                ],
+                                span: [
+                                  {
+                                    '$': {
+                                      'data-sc-content': 'example-keyword'
+                                    },
+                                    ruby: [
+                                      {
+                                        _: '早い',
+                                        rt: [
+                                          {
+                                            span: [
+                                              {
+                                                _: '●●',
+                                                '$': {
+                                                  style: 'color: crimson;'
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    _: '[4]',
+                                    '$': {
+                                      style: 'font-size: 0.5em; color: rgb(119, 119, 119); vertical-align: super; margin-left: -0.25em;'
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                _: 'It is premature to discuss it now.',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-b',
+                                  lang: 'en',
+                                  style: 'font-size: 80%; border-style: none none none solid; border-radius: 0px 0px 0px 0.4rem; padding-left: 0.75rem;'
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                span: [
+                  {
+                    _: 'adjective',
+                    '$': {
+                      'data-sc-code': 'adj-i',
+                      title: 'adjective (keiyoushi)',
+                      style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: rgb(86, 86, 86); vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                    }
+                  }
+                ],
+                ol: [
+                  {
+                    li: [
+                      {
+                        '$': { style: 'list-style-type: "④ ";' },
+                        ul: [
+                          {
+                            '$': { 'data-sc-content': 'glossary' },
+                            li: [ 'easy', 'simple', 'quick', 'fast' ]
+                          },
+                          {
+                            '$': {
+                              style: 'margin-bottom: 0.5em; list-style-type: none;'
+                            },
+                            li: [
+                              {
+                                _: 'esp. 早い',
+                                '$': {
+                                  'data-sc-content': 'sense-note',
+                                  style: 'margin-top: 0.5em; list-style-type: "📝 ";'
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        '$': { style: 'list-style-type: "⑤ ";' },
+                        ul: [
+                          {
+                            '$': { 'data-sc-content': 'glossary' },
+                            li: [
+                              'as soon as ...',
+                              'the moment ...',
+                              'the instant ...'
+                            ]
+                          },
+                          {
+                            '$': {
+                              style: 'margin-bottom: 0.5em; list-style-type: none;'
+                            },
+                            li: [
+                              {
+                                _: 'as ...するが早いか or ...するより早く',
+                                '$': {
+                                  'data-sc-content': 'sense-note',
+                                  style: 'margin-top: 0.5em; list-style-type: "📝 ";'
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                '$': { 'data-sc-content': 'forms' },
+                span: [
+                  {
+                    _: 'forms',
+                    '$': {
+                      title: 'spelling and reading variants',
+                      style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: rgb(86, 86, 86); vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                    }
+                  }
+                ],
+                div: [
+                  {
+                    '$': { style: 'font-size: 1.2em; margin-top: 0.2em;' },
+                    div: [
+                      {
+                        '$': { style: 'display:block;' },
+                        table: [
+                          {
+                            '$': {
+                              style: 'table-layout:auto;border-collapse:collapse;'
+                            },
+                            tr: [
+                              {
+                                th: [
+                                  {
+                                    '$': {
+                                      style: 'font-weight:bold;border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;font-weight: normal; text-align: center;'
+                                    }
+                                  },
+                                  {
+                                    _: '早い',
+                                    '$': {
+                                      style: 'font-weight:bold;border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;font-weight: normal; text-align: center;'
+                                    }
+                                  },
+                                  {
+                                    _: '速い',
+                                    '$': {
+                                      style: 'font-weight:bold;border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;font-weight: normal; text-align: center;'
+                                    }
+                                  },
+                                  {
+                                    _: '疾い',
+                                    '$': {
+                                      style: 'font-weight:bold;border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;font-weight: normal; text-align: center;'
+                                    }
+                                  },
+                                  {
+                                    _: '捷い',
+                                    '$': {
+                                      style: 'font-weight:bold;border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;font-weight: normal; text-align: center;'
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                th: [
+                                  {
+                                    _: 'はやい',
+                                    '$': {
+                                      style: 'font-weight:bold;border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;font-weight: normal;'
+                                    }
+                                  }
+                                ],
+                                td: [
+                                  {
+                                    '$': {
+                                      style: 'border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;text-align: center;'
+                                    },
+                                    span: [
+                                      {
+                                        _: '優',
+                                        '$': {
+                                          title: 'high priority form',
+                                          style: 'color: white; background-color: green; border-color: green; border-style: solid; border-radius: 100%; border-width: 0.75px; padding: 0.15em 0.15em 0.05em; cursor: help;'
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    '$': {
+                                      style: 'border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;text-align: center;'
+                                    },
+                                    span: [
+                                      {
+                                        _: '優',
+                                        '$': {
+                                          title: 'high priority form',
+                                          style: 'color: white; background-color: green; border-color: green; border-style: solid; border-radius: 100%; border-width: 0.75px; padding: 0.15em 0.15em 0.05em; cursor: help;'
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    '$': {
+                                      style: 'border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;text-align: center;'
+                                    },
+                                    span: [
+                                      {
+                                        _: '稀',
+                                        '$': {
+                                          title: 'rarely used form',
+                                          style: 'color: white; background-color: purple; border-color: purple; border-style: solid; border-radius: 100%; border-width: 0.75px; padding: 0.15em 0.15em 0.05em; cursor: help;'
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    '$': {
+                                      style: 'border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;text-align: center;'
+                                    },
+                                    span: [
+                                      {
+                                        _: '稀',
+                                        '$': {
+                                          title: 'rarely used form',
+                                          style: 'color: white; background-color: purple; border-color: purple; border-style: solid; border-radius: 100%; border-width: 0.75px; padding: 0.15em 0.15em 0.05em; cursor: help;'
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        div: [
+          {
+            _: 'sources:  | Tatoeba ',
+            '$': {
+              'data-sc-content': 'attribution',
+              style: 'font-size: 0.7em; text-align: right;'
+            },
+            a: [
+              {
+                '$': {
+                  href: 'https://www.edrdg.org/jmwsgi/entr.py?svc=jmdict&q=1404975'
+                },
+                span: [ 'JMdict', { '$': { style: 'display:none;' } } ]
+              },
+              {
+                '$': {
+                  href: 'https://tatoeba.org/en/sentences/show/229691'
+                },
+                span: [ '[1]', { '$': { style: 'display:none;' } } ]
+              },
+              {
+                '$': {
+                  href: 'https://tatoeba.org/en/sentences/show/168525'
+                },
+                span: [ '[2]', { '$': { style: 'display:none;' } } ]
+              },
+              {
+                '$': {
+                  href: 'https://tatoeba.org/en/sentences/show/171315'
+                },
+                span: [ '[3]', { '$': { style: 'display:none;' } } ]
+              },
+              {
+                '$': {
+                  href: 'https://tatoeba.org/en/sentences/show/204590'
+                },
+                span: [ '[4]', { '$': { style: 'display:none;' } } ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

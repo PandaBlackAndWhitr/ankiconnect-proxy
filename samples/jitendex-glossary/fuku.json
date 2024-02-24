@@ -1,0 +1,209 @@
+{
+  div: {
+    '$': { style: 'text-align: left;' },
+    i: [ '(★, Jitendex.org [2024-02-18])' ],
+    span: [
+      {
+        ul: [
+          {
+            '$': { lang: 'ja', style: 'list-style-type: "＊";' },
+            li: [
+              {
+                span: [
+                  {
+                    _: 'noun',
+                    '$': {
+                      'data-sc-code': 'n',
+                      title: 'noun (common) (futsuumeishi)',
+                      style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: rgb(86, 86, 86); vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                    }
+                  },
+                  {
+                    _: 'suffix',
+                    '$': {
+                      'data-sc-code': 'n-suf',
+                      title: 'noun, used as a suffix',
+                      style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: rgb(86, 86, 86); vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                    }
+                  }
+                ],
+                ol: [
+                  {
+                    li: [
+                      {
+                        '$': { style: 'list-style-type: "① ";' },
+                        ul: [
+                          {
+                            '$': {
+                              'data-sc-content': 'glossary',
+                              style: 'padding-left: 0px; list-style-type: none;'
+                            },
+                            li: [ 'clothes (esp. Western clothes)' ]
+                          },
+                          {
+                            '$': {
+                              style: 'margin-bottom: 0.5em; list-style-type: none;'
+                            },
+                            li: [
+                              {
+                                _: 'はれたをにあぶってかわかした。',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-a',
+                                  lang: 'ja',
+                                  style: 'font-size: 130%; border-style: none none none solid; border-radius: 0.4rem 0px 0px; margin-top: 0.5rem; padding-left: 0.75rem;'
+                                },
+                                ruby: [
+                                  { _: '彼', rt: [ 'かれ' ] },
+                                  { _: '濡', rt: [ 'ぬ' ] },
+                                  { _: '火', rt: [ 'ひ' ] }
+                                ],
+                                span: [
+                                  {
+                                    '$': {
+                                      'data-sc-content': 'example-keyword'
+                                    },
+                                    ruby: [
+                                      {
+                                        _: '服',
+                                        rt: [
+                                          {
+                                            span: [
+                                              {
+                                                _: '●',
+                                                '$': {
+                                                  style: 'color: crimson;'
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                _: 'He dried his wet clothes by the fire.',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-b',
+                                  lang: 'en',
+                                  style: 'font-size: 80%; border-style: none none none solid; border-radius: 0px 0px 0px 0.4rem; padding-left: 0.75rem;'
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                span: [
+                  {
+                    _: 'suffix',
+                    '$': {
+                      'data-sc-code': 'suf',
+                      style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: rgb(86, 86, 86); vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all;'
+                    }
+                  },
+                  {
+                    _: 'counter',
+                    '$': {
+                      'data-sc-code': 'ctr',
+                      style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: rgb(86, 86, 86); vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all;'
+                    }
+                  }
+                ],
+                ol: [
+                  {
+                    li: [
+                      {
+                        '$': { style: 'list-style-type: "② ";' },
+                        ul: [
+                          {
+                            '$': {
+                              'data-sc-content': 'glossary',
+                              style: 'padding-left: 0px; list-style-type: none;'
+                            },
+                            li: [
+                              'counter for doses of medicine, gulps of tea, drags of a cigarette, etc.'
+                            ]
+                          },
+                          {
+                            '$': {
+                              style: 'margin-bottom: 0.5em; list-style-type: none;'
+                            },
+                            li: [
+                              {
+                                '$': {
+                                  'data-sc-content': 'xref',
+                                  style: 'font-size: 130%; border-color: rgb(74, 145, 237); border-style: none none none solid; border-radius: 0.4rem 0px 0px; margin-top: 0.5rem; padding-left: 0.75rem;'
+                                },
+                                span: [
+                                  {
+                                    _: 'see:',
+                                    '$': {
+                                      style: 'margin-right: 0.25em; cursor: help;'
+                                    }
+                                  }
+                                ],
+                                a: [
+                                  {
+                                    '$': { lang: 'ja', href: '#' },
+                                    span: [
+                                      {
+                                        ruby: [
+                                          { _: '一', rt: [ 'いっ' ] },
+                                          { _: '服', rt: [ 'ぷく' ] }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                _: '(a) dose; (a) puff; (a) smoke; lull; short rest',
+                                '$': {
+                                  'data-sc-content': 'xref-glossary',
+                                  style: 'font-size: 80%; border-color: rgb(74, 145, 237); border-style: none none none solid; border-radius: 0px 0px 0px 0.4rem; padding-left: 0.75rem;'
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        div: [
+          {
+            _: 'sources:  | ',
+            '$': {
+              'data-sc-content': 'attribution',
+              style: 'font-size: 0.7em; text-align: right;'
+            },
+            a: [
+              {
+                '$': {
+                  href: 'https://www.edrdg.org/jmwsgi/entr.py?svc=jmdict&q=1500940'
+                },
+                span: [ 'JMdict', { '$': { style: 'display:none;' } } ]
+              },
+              {
+                '$': {
+                  href: 'https://tatoeba.org/en/sentences/show/101399'
+                },
+                span: [ 'Tatoeba', { '$': { style: 'display:none;' } } ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  div: {
+    '$': { style: 'text-align: left;' },
+    i: [ '(★, Jitendex.org [2024-02-18])' ],
+    span: [
+      {
+        div: [
+          {
+            span: [
+              {
+                _: 'noun',
+                '$': {
+                  'data-sc-code': 'n',
+                  title: 'noun (common) (futsuumeishi)',
+                  style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: rgb(86, 86, 86); vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                }
+              }
+            ],
+            div: [
+              {
+                ul: [
+                  {
+                    '$': { 'data-sc-content': 'glossary' },
+                    li: [ '(written) contract', 'agreement' ]
+                  },
+                  {
+                    '$': {
+                      style: 'margin-bottom: 0.5em; list-style-type: none;'
+                    },
+                    li: [
+                      {
+                        _: 'らはににサインさせた。',
+                        '$': {
+                          'data-sc-content': 'example-sentence-a',
+                          lang: 'ja',
+                          style: 'font-size: 130%; border-style: none none none solid; border-radius: 0.4rem 0px 0px; margin-top: 0.5rem; padding-left: 0.75rem;'
+                        },
+                        ruby: [
+                          { _: '彼', rt: [ 'かれ' ] },
+                          { _: '彼', rt: [ 'かれ' ] },
+                          { _: '無', rt: [ 'む' ] },
+                          { _: '理', rt: [ 'り' ] },
+                          { _: '矢', rt: [ 'や' ] },
+                          { _: '理', rt: [ 'り' ] }
+                        ],
+                        span: [
+                          {
+                            '$': { 'data-sc-content': 'example-keyword' },
+                            ruby: [
+                              {
+                                _: '契約書',
+                                rt: [
+                                  {
+                                    span: [
+                                      {
+                                        _: '●●●',
+                                        '$': { style: 'color: crimson;' }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        _: 'They made him sign the contract.',
+                        '$': {
+                          'data-sc-content': 'example-sentence-b',
+                          lang: 'en',
+                          style: 'font-size: 80%; border-style: none none none solid; border-radius: 0px 0px 0px 0.4rem; padding-left: 0.75rem;'
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            _: 'sources:  | ',
+            '$': {
+              'data-sc-content': 'attribution',
+              style: 'font-size: 0.7em; text-align: right;'
+            },
+            a: [
+              {
+                '$': {
+                  href: 'https://www.edrdg.org/jmwsgi/entr.py?svc=jmdict&q=1250210'
+                },
+                span: [ 'JMdict', { '$': { style: 'display:none;' } } ]
+              },
+              {
+                '$': { href: 'https://tatoeba.org/en/sentences/show/96360' },
+                span: [ 'Tatoeba', { '$': { style: 'display:none;' } } ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

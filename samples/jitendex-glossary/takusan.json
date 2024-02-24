@@ -1,0 +1,251 @@
+{
+  div: {
+    '$': { style: 'text-align: left;' },
+    i: [ '(★, Jitendex.org [2024-02-18])' ],
+    span: [
+      {
+        ul: [
+          {
+            '$': { lang: 'ja', style: 'list-style-type: "＊";' },
+            li: [
+              {
+                span: [
+                  {
+                    _: 'no-adj',
+                    '$': {
+                      'data-sc-code': 'adj-no',
+                      title: "nouns which may take the genitive case particle 'no'",
+                      style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: rgb(86, 86, 86); vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                    }
+                  },
+                  {
+                    _: 'na-adj',
+                    '$': {
+                      'data-sc-code': 'adj-na',
+                      title: 'adjectival nouns or quasi-adjectives (keiyodoshi)',
+                      style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: rgb(86, 86, 86); vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                    }
+                  },
+                  {
+                    _: 'noun',
+                    '$': {
+                      'data-sc-code': 'n',
+                      title: 'noun (common) (futsuumeishi)',
+                      style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: rgb(86, 86, 86); vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                    }
+                  },
+                  {
+                    _: 'adverb',
+                    '$': {
+                      'data-sc-code': 'adv',
+                      title: 'adverb (fukushi)',
+                      style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: rgb(86, 86, 86); vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                    }
+                  },
+                  {
+                    _: 'kana',
+                    '$': {
+                      'data-sc-code': 'uk',
+                      title: 'word usually written using kana alone',
+                      style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: brown; vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                    }
+                  }
+                ],
+                ol: [
+                  {
+                    li: [
+                      {
+                        '$': { style: 'list-style-type: "① ";' },
+                        ul: [
+                          {
+                            '$': { 'data-sc-content': 'glossary' },
+                            li: [
+                              'a lot',
+                              'lots',
+                              'plenty',
+                              'many',
+                              'a large number',
+                              'much',
+                              'a great deal',
+                              'a good deal'
+                            ]
+                          },
+                          {
+                            '$': {
+                              style: 'margin-bottom: 0.5em; list-style-type: none;'
+                            },
+                            li: [
+                              {
+                                _: 'おさんはのでをれる。',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-a',
+                                  lang: 'ja',
+                                  style: 'font-size: 130%; border-style: none none none solid; border-radius: 0.4rem 0px 0px; margin-top: 0.5rem; padding-left: 0.75rem;'
+                                },
+                                ruby: [
+                                  { _: '父', rt: [ 'とう' ] },
+                                  { _: '煙草', rt: [ 'たばこ' ] },
+                                  { _: '煙', rt: [ 'けむり' ] },
+                                  { _: '輪', rt: [ 'わ' ] },
+                                  { _: '作', rt: [ 'つく' ] }
+                                ],
+                                span: [
+                                  {
+                                    '$': {
+                                      'data-sc-content': 'example-keyword'
+                                    },
+                                    ruby: [
+                                      {
+                                        _: 'たくさん',
+                                        rt: [
+                                          {
+                                            span: [
+                                              {
+                                                _: '●●●●',
+                                                '$': {
+                                                  style: 'color: crimson;'
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                _: 'Dad can blow many smoke rings.',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-b',
+                                  lang: 'en',
+                                  style: 'font-size: 80%; border-style: none none none solid; border-radius: 0px 0px 0px 0.4rem; padding-left: 0.75rem;'
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        '$': { style: 'list-style-type: "② ";' },
+                        ul: [
+                          {
+                            '$': { 'data-sc-content': 'glossary' },
+                            li: [ 'enough', 'sufficient' ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                span: [
+                  {
+                    _: 'suffix',
+                    '$': {
+                      'data-sc-code': 'n-suf',
+                      title: 'noun, used as a suffix',
+                      style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: rgb(86, 86, 86); vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                    }
+                  },
+                  {
+                    _: 'kana',
+                    '$': {
+                      'data-sc-code': 'uk',
+                      title: 'word usually written using kana alone',
+                      style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: brown; vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                    }
+                  }
+                ],
+                ol: [
+                  {
+                    li: [
+                      {
+                        '$': { style: 'list-style-type: "③ ";' },
+                        ul: [
+                          {
+                            '$': { 'data-sc-content': 'glossary' },
+                            li: [ 'enough', 'too many', 'too much' ]
+                          },
+                          {
+                            '$': {
+                              style: 'margin-bottom: 0.5em; list-style-type: none;'
+                            },
+                            li: [
+                              {
+                                _: 'after a noun; usu. read as だくさん',
+                                '$': {
+                                  'data-sc-content': 'sense-note',
+                                  style: 'margin-top: 0.5em; list-style-type: "📝 ";'
+                                }
+                              },
+                              {
+                                '$': {
+                                  'data-sc-content': 'xref',
+                                  style: 'font-size: 130%; border-color: rgb(74, 145, 237); border-style: none none none solid; border-radius: 0.4rem 0px 0px; margin-top: 0.5rem; padding-left: 0.75rem;'
+                                },
+                                span: [
+                                  {
+                                    _: 'see:',
+                                    '$': {
+                                      style: 'margin-right: 0.25em; cursor: help;'
+                                    }
+                                  }
+                                ],
+                                a: [
+                                  {
+                                    '$': { lang: 'ja', href: '#' },
+                                    span: [
+                                      {
+                                        ruby: [ { _: '沢山', rt: [ 'だくさん' ] } ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                _: 'enough; too many; too much',
+                                '$': {
+                                  'data-sc-content': 'xref-glossary',
+                                  style: 'font-size: 80%; border-color: rgb(74, 145, 237); border-style: none none none solid; border-radius: 0px 0px 0px 0.4rem; padding-left: 0.75rem;'
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        div: [
+          {
+            _: 'sources:  | ',
+            '$': {
+              'data-sc-content': 'attribution',
+              style: 'font-size: 0.7em; text-align: right;'
+            },
+            a: [
+              {
+                '$': {
+                  href: 'https://www.edrdg.org/jmwsgi/entr.py?svc=jmdict&q=1415870'
+                },
+                span: [ 'JMdict', { '$': { style: 'display:none;' } } ]
+              },
+              {
+                '$': {
+                  href: 'https://tatoeba.org/en/sentences/show/226723'
+                },
+                span: [ 'Tatoeba', { '$': { style: 'display:none;' } } ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
