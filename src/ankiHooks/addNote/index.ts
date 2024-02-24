@@ -18,7 +18,7 @@ export const AddNoteActionHook: AnkiActionHook<'addNote', AddNoteAnkiPayload> = 
     const note = data.params.note;
 
     const toParse = await parseStringPromise(note.fields[config.fields.glossary]);
-    console.log(inspect(toParse, false, null));
+    // console.log(inspect(toParse, false, null));
 
     // Parse, then write
     const glossary = parseJitendex(toParse);
