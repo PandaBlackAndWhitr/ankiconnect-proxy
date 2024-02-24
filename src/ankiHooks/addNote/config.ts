@@ -7,18 +7,22 @@ export type AddNoteMappingConfig = {
     // Kanji expression
     expression: string,
     partsOfSpeech?: string,
-  }
-  includePartsOfSpeechInTags?: {
-    enabled: boolean,
-    // Appends a prefix to the partsOfSpeechTags
-    prefix?: string,
-    // Conditions:
-    // - false: will include parts of speech tags, even if they're not mapped
-    // - 'ignore': will ignore unmapped parts of speech tags
-    // - 'error': will throw an error if there are unmapped parts of speech tags
-    onlyMapped: 'ignoreUnmapped' | 'error' | false,
-    // Allows changing how the parts of speech are mapped
-    map?: Record<PartsOfSpeech, string>,
+  },
+  tags: {
+    // Add tags about parts of speech
+    partsOfSpeech?: {
+      enabled: boolean,
+      // Appends a prefix to the partsOfSpeechTags
+      prefix?: string,
+      // Conditions:
+      // - false: will include parts of speech tags, even if they're not mapped
+      // - 'ignore': will ignore unmapped parts of speech tags
+      // - 'error': will throw an error if there are unmapped parts of speech tags
+      onlyMapped: 'ignoreUnmapped' | 'error' | false,
+      // Allows changing how the parts of speech are mapped
+      map?: Record<PartsOfSpeech, string>,
+    },
+    additional?: string[]
   },
 };
 
@@ -28,21 +32,25 @@ export const defaultAddNoteMappingConfig : AddNoteMappingConfig = {
     expression: 'Kanji',
     partsOfSpeech: 'Part of Speech',
   },
-  includePartsOfSpeechInTags: {
-    enabled: true,
-    onlyMapped: false,
-    prefix: 'pos::',
-    /*
-    map: {
-      'n': 'Part_Of_Speech::Noun',
-      'n-suf': 'Part_Of_Speech::Noun::Suffix',
-      'ctr': 'Part_Of_Speech::Counter',
-      '': 'Part_Of_Speech::Verb::Intransitive',
-      'transitive': 'Part_Of_Speech::Verb::Transitive',
+  tags: {
+    partsOfSpeech: {
+      enabled: true,
+      onlyMapped: false,
+      prefix: 'pos::',
+      /*
+      map: {
+        'n': 'Part_Of_Speech::Noun',
+        'n-suf': 'Part_Of_Speech::Noun::Suffix',
+        'ctr': 'Part_Of_Speech::Counter',
+        '': 'Part_Of_Speech::Verb::Intransitive',
+        'transitive': 'Part_Of_Speech::Verb::Transitive',
 
-      // TODO: Converter to not include Godan info???
-      '5-dan': 'Part_Of_Speech::Verb::Godan',
+        // TODO: Converter to not include Godan info???
+        '5-dan': 'Part_Of_Speech::Verb::Godan',
+      },
+      */
     },
-    */
-  },
+    // Tag with "generated"
+    additional: ['generated'],
+  }
 }

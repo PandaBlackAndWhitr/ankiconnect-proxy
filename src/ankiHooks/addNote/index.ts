@@ -29,9 +29,7 @@ export const AddNoteActionHook: AnkiActionHook<'addNote', AddNoteAnkiPayload> = 
       note.fields[config.fields.partsOfSpeech] = glossary.partsOfSpeech.join(',');
     }
 
-    if (config.includePartsOfSpeechInTags?.enabled) {
-      handleTags(glossary, config.includePartsOfSpeechInTags, note);
-    }
+    handleTags(glossary, config.tags, note);
 
     // Logging (used when debugging)
     // note.fields['English'] = new Builder().buildObject(toParse.div.span[0]);

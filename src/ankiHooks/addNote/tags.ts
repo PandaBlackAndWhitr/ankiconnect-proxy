@@ -2,9 +2,20 @@ import { removeDuplicates } from '../../utils';
 import { AddNoteMappingConfig } from './config';
 import { AddNoteAnkiPayload, ParsedGlossary } from './types';
 
-type PartsOfSpeechConfig = Exclude<AddNoteMappingConfig['includePartsOfSpeechInTags'], undefined>;
+type TagsConfig = AddNoteMappingConfig['tags'];
+type PartsOfSpeechConfig = Exclude<AddNoteMappingConfig['tags']['partsOfSpeech'], undefined>;
 
 export function handleTags(glossary: ParsedGlossary,
+  config: TagsConfig,
+  note: AddNoteAnkiPayload['params']['note'],
+) {
+  if (config.partsOfSpeech) handlePartsOfSpeech(glossary, config.partsOfSpeech, note);
+  if (config.additional) config.additional.forEach((val) => note.tags.push(val));
+
+  note.tags = removeDuplicates(note.tags);
+}
+
+function handlePartsOfSpeech(glossary: ParsedGlossary,
   config: PartsOfSpeechConfig,
   note: AddNoteAnkiPayload['params']['note'],
 ): void {
@@ -13,7 +24,7 @@ export function handleTags(glossary: ParsedGlossary,
   if (!config.map && config.onlyMapped === 'error') throw new Error('No mappings for parts of speech defined (perhaps `includePartsOfSpeechInTags.onlyMapped` should be false?)');
 
   const prefix = config.prefix ?? '';
-  const addToTags = (val: string) => posTags.push(`${prefix}${val}`);
+  const addToTags = (val: string) => note.tags.push(`${prefix}${val}`);
 
   // Mapping logic:
   if (config.map) {
@@ -38,13 +49,7 @@ export function handleTags(glossary: ParsedGlossary,
     }, posTags);
   } else {
     if (config.onlyMapped === false) {
-      if (prefix) posTags = glossary.partsOfSpeech.map((val) => (`${prefix}${val}`));
-      else posTags = glossary.partsOfSpeech;
+      glossary.partsOfSpeech.forEach(addToTags);
     }
   }
-
-  note.tags = removeDuplicates([
-    ...note.tags,
-    ...posTags
-  ]);
 }
