@@ -39,12 +39,20 @@ type JitendexAttributions = {
 // TODO: This is specifically for when the parts of speech are included in the bullets
 export type JitendexDefinitionGroup = {
   $?: undefined,
-
   span: JitendexDefinitionGroupTag[],
+} & (JitendexDefinitionGroupSingleDefinition | JitendexDefinitionGroupMultipleDefinitions);
+
+type JitendexDefinitionGroupSingleDefinition = {
+  div: [JitendexDefinition],
+  ol?: undefined,
+}
+
+type JitendexDefinitionGroupMultipleDefinitions = {
+  div?: undefined,
   ol: [{
     li: JitendexDefinition[],
   }],
-};
+}
 
 export function isDefinitionGroup(group: JitendexGlossary): group is JitendexDefinitionGroup {
   return group?.$?.['data-sc-content'] === undefined;
@@ -53,8 +61,6 @@ export function isDefinitionGroup(group: JitendexGlossary): group is JitendexDef
 export type JitendexSingleDefinitionGroup = {
   $?: undefined,
   span: JitendexDefinitionGroupTag[],
-
-  div: [JitendexDefinition]
 }
 
 // -------------------------------------------

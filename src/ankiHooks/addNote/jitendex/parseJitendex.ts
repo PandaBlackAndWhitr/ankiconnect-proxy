@@ -1,7 +1,7 @@
 import { removeDuplicates } from '../../../utils';
 import type { ParsedDefinitionGroup, ParsedGlossary } from '../types';
 
-import type { JitendexDefinition, JitendexGlossary, JitendexDefinitionGroupTag, JitendexSingleDefinitionGroup } from './types';
+import type { JitendexDefinition, JitendexGlossary, JitendexDefinitionGroupTag, JitendexSingleDefinitionGroup, JitendexDefinitionGroup } from './types';
 
 import { isDefinitionGroup, isFormsTable, tagIsPartOfSpeech } from './types';
 
@@ -20,13 +20,10 @@ export function parseJitendex(data: any): ParsedGlossary {
   //   - eg. jitensha, keiyakusho
   // Choose ul if it exists
   if (Object.prototype.hasOwnProperty.call(topLevel, 'ul')) {
-    parseUlTopLevel(topLevel.ul[0].li as JitendexGlossary[], parsed);
-  } else {
-    // TODO: There may be form tables on 2nd, but ignore them for now
-    const definition = topLevel.div[0] as JitendexSingleDefinitionGroup;
-
-    // Single definition group:
-    parseDefinitionGroup(definition.span, definition.div, parsed);
+    topLevel.ul[0].li.forEach((glossary: JitendexGlossary) => parseGlossary(glossary, parsed));
+  }
+  if (Object.prototype.hasOwnProperty.call(topLevel, 'div')) {
+    topLevel.div.forEach((glossary: JitendexGlossary) => parseGlossary(glossary, parsed));
   }
 
   // Remove duplicates
@@ -35,19 +32,17 @@ export function parseJitendex(data: any): ParsedGlossary {
   return parsed;
 };
 
-function parseUlTopLevel(elements: JitendexGlossary[], result: ParsedGlossary) {
-  elements.forEach((el) => {
-    // TODO: Get the forms table maybe???
-    if (isFormsTable(el)) return;
+function parseGlossary(glossary: JitendexGlossary, result: ParsedGlossary) {
+  // TODO: Get the forms table maybe???
+  if (isFormsTable(glossary)) return;
 
-    // Ignore if it's not a definition group
-    if (!isDefinitionGroup(el)) return;
+  // Ignore if it's not a definition group
+  if (!isDefinitionGroup(glossary)) return;
 
-    parseDefinitionGroup(el.span, el.ol[0].li, result);
-  });
+  parseDefinitionGroup(glossary, result);
 }
 
-function parseDefinitionGroup(posSpan: JitendexDefinitionGroupTag[], definitions: JitendexDefinition[], result: ParsedGlossary) {
+function parseDefinitionGroup(group: JitendexDefinitionGroup, result: ParsedGlossary) {
   const definitionGroup: ParsedDefinitionGroup = {
     partsOfSpeech: [],
     definitions: [],
@@ -55,7 +50,7 @@ function parseDefinitionGroup(posSpan: JitendexDefinitionGroupTag[], definitions
 
   // TODO: May need normalization (eg. for Godan verbs, will save them separately)
   // Get all parts of Speech
-  posSpan.forEach((el) => {
+  group.span.forEach((el) => {
     if (tagIsPartOfSpeech(el)) {
       result.partsOfSpeech.push(el.$['data-sc-code']);
       definitionGroup.partsOfSpeech.push(el.$['data-sc-code']);
@@ -66,9 +61,12 @@ function parseDefinitionGroup(posSpan: JitendexDefinitionGroupTag[], definitions
   });
 
   // Build definition
-  definitions.forEach((definitionElement) => {
-    parseDefinition(definitionElement, definitionGroup);
-  });
+  if (group.div) parseDefinition(group.div[0], definitionGroup);
+  else {
+    group.ol[0].li.forEach((definitionElement) => {
+      parseDefinition(definitionElement, definitionGroup);
+    });
+  }
 
   // Add to return
   result.definitionGroups.push(definitionGroup);

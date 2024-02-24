@@ -1,0 +1,159 @@
+{
+  div: {
+    '$': { style: 'text-align: left;' },
+    i: [ '(★, Jitendex.org [2024-02-18])' ],
+    span: [
+      {
+        div: [
+          {
+            span: [
+              {
+                _: 'noun',
+                '$': {
+                  'data-sc-code': 'n',
+                  title: 'noun (common) (futsuumeishi)',
+                  style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: rgb(86, 86, 86); vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                }
+              },
+              {
+                _: 'suru',
+                '$': {
+                  'data-sc-code': 'vs',
+                  title: 'noun or participle which takes the aux. verb suru',
+                  style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: rgb(86, 86, 86); vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                }
+              }
+            ],
+            ol: [
+              {
+                li: [
+                  {
+                    '$': { style: 'list-style-type: "① ";' },
+                    ul: [
+                      {
+                        '$': { 'data-sc-content': 'glossary' },
+                        li: [
+                          'reserve',
+                          'constraint',
+                          'restraint',
+                          'modesty',
+                          'diffidence',
+                          'hesitation',
+                          'holding back',
+                          'discretion',
+                          'tact',
+                          'thoughtfulness'
+                        ]
+                      },
+                      {
+                        '$': {
+                          style: 'margin-bottom: 0.5em; list-style-type: none;'
+                        },
+                        li: [
+                          {
+                            _: 'ここでのおタバコはごいます。',
+                            '$': {
+                              'data-sc-content': 'example-sentence-a',
+                              lang: 'ja',
+                              style: 'font-size: 130%; border-style: none none none solid; border-radius: 0.4rem 0px 0px; margin-top: 0.5rem; padding-left: 0.75rem;'
+                            },
+                            span: [
+                              {
+                                '$': {
+                                  'data-sc-content': 'example-keyword'
+                                },
+                                ruby: [
+                                  {
+                                    _: '遠慮',
+                                    rt: [
+                                      {
+                                        span: [
+                                          {
+                                            _: '●●',
+                                            '$': {
+                                              style: 'color: crimson;'
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ],
+                            ruby: [ { _: '願', rt: [ 'ねが' ] } ]
+                          },
+                          {
+                            _: 'Please refrain from smoking here.',
+                            '$': {
+                              'data-sc-content': 'example-sentence-b',
+                              lang: 'en',
+                              style: 'font-size: 80%; border-style: none none none solid; border-radius: 0px 0px 0px 0.4rem; padding-left: 0.75rem;'
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    '$': { style: 'list-style-type: "② ";' },
+                    ul: [
+                      {
+                        '$': { 'data-sc-content': 'glossary' },
+                        li: [ 'declining', 'refraining' ]
+                      }
+                    ]
+                  },
+                  {
+                    '$': { style: 'list-style-type: "③ ";' },
+                    ul: [
+                      {
+                        '$': { 'data-sc-content': 'glossary' },
+                        li: [ 'forethought', 'foresight' ]
+                      },
+                      {
+                        '$': {
+                          style: 'margin-bottom: 0.5em; list-style-type: none;'
+                        },
+                        li: [
+                          {
+                            _: 'orig. meaning',
+                            '$': {
+                              'data-sc-content': 'sense-note',
+                              style: 'margin-top: 0.5em; list-style-type: "📝 ";'
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            _: 'sources:  | ',
+            '$': {
+              'data-sc-content': 'attribution',
+              style: 'font-size: 0.7em; text-align: right;'
+            },
+            a: [
+              {
+                '$': {
+                  href: 'https://www.edrdg.org/jmwsgi/entr.py?svc=jmdict&q=1178450'
+                },
+                span: [ 'JMdict', { '$': { style: 'display:none;' } } ]
+              },
+              {
+                '$': {
+                  href: 'https://tatoeba.org/en/sentences/show/224633'
+                },
+                span: [ 'Tatoeba', { '$': { style: 'display:none;' } } ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
