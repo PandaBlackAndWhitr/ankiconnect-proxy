@@ -39,7 +39,7 @@ type JitendexAttributions = {
 // TODO: This is specifically for when the parts of speech are included in the bullets
 export type JitendexDefinitionGroup = {
   $?: undefined,
-  span: JitendexDefinitionGroupTag[],
+  span: JitendexTag[],
 } & (JitendexDefinitionGroupSingleDefinition | JitendexDefinitionGroupMultipleDefinitions);
 
 type JitendexDefinitionGroupSingleDefinition = {
@@ -60,7 +60,7 @@ export function isDefinitionGroup(group: JitendexGlossary): group is JitendexDef
 
 export type JitendexSingleDefinitionGroup = {
   $?: undefined,
-  span: JitendexDefinitionGroupTag[],
+  span: JitendexTag[],
 }
 
 // -------------------------------------------
@@ -71,7 +71,7 @@ export type JitendexSingleDefinitionGroup = {
 // export type JitendexPartsOfSpeechIdentifier = 'noun' | 'suffix' | 'verb';
 
 // Contained as spans:
-export type JitendexDefinitionGroupTag = {
+export type JitendexTag = {
   // What's displayed (ie. in between the tags)
   // _: JitendexPartsOfSpeechIdentifier,
   _: string,
@@ -88,7 +88,7 @@ export type JitendexDefinitionGroupTag = {
 
 type PartOfSpeechDataCode = { $: { 'data-sc-code': PartsOfSpeech } };
 
-export function tagIsPartOfSpeech(tag: JitendexDefinitionGroupTag): tag is JitendexDefinitionGroupTag & PartOfSpeechDataCode {
+export function tagIsPartOfSpeech(tag: JitendexTag): tag is JitendexTag & PartOfSpeechDataCode {
   return tag.$['data-sc-code'] !== undefined && isPartOfSpeech(tag.$['data-sc-code']);
 }
 
@@ -97,6 +97,9 @@ export function tagIsPartOfSpeech(tag: JitendexDefinitionGroupTag): tag is Jiten
 // -------------------------------------------
 export type JitendexDefinition = {
   $: { style: string },
+
+  // Tags on definitions (not on group)
+  span?: JitendexTag[],
   // ExampleSentence can only ever be the LAST ELEMENT in the list
   ul: (JitendexDefinitionPhrase | JitendexDefinitionExampleSentenceWrapper)[]
 };

@@ -34,6 +34,7 @@ export type ParsedDefinitionGroup = {
 
 export type ParsedDefinition = {
   definition: string,
+  definitionTags?: string[],
   // TODO: optional, and honestly, probably don't want it???
   exampleSentence?: string,
 };
@@ -43,5 +44,5 @@ export type ParsedForms = {};
 
 export type ParsedGlossary = {
   partsOfSpeech: PartsOfSpeech[],
-  definitionGroups: ParsedDefinitionGroup[]
+  definitionGroups: ParsedDefinitionGroup[],
 };

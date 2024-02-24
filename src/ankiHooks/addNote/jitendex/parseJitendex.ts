@@ -1,7 +1,7 @@
 import { removeDuplicates } from '../../../utils';
-import type { ParsedDefinitionGroup, ParsedGlossary } from '../types';
+import type { ParsedDefinition, ParsedDefinitionGroup, ParsedGlossary } from '../types';
 
-import type { JitendexDefinition, JitendexGlossary, JitendexDefinitionGroupTag, JitendexSingleDefinitionGroup, JitendexDefinitionGroup } from './types';
+import type { JitendexDefinition, JitendexGlossary, JitendexDefinitionGroup } from './types';
 
 import { isDefinitionGroup, isFormsTable, tagIsPartOfSpeech } from './types';
 
@@ -56,7 +56,9 @@ function parseDefinitionGroup(group: JitendexDefinitionGroup, result: ParsedGlos
       definitionGroup.partsOfSpeech.push(el.$['data-sc-code']);
     } else {
       definitionGroup.groupTags ??= [];
-      definitionGroup.groupTags.push(el._);
+
+      if (el.$['data-sc-code']) definitionGroup.groupTags.push(el.$['data-sc-code']);
+      else definitionGroup.groupTags.push(el._);
     }
   });
 
@@ -73,12 +75,26 @@ function parseDefinitionGroup(group: JitendexDefinitionGroup, result: ParsedGlos
 }
 
 function parseDefinition(definitionElement: JitendexDefinition, result: ParsedDefinitionGroup) {
+  const definition: ParsedDefinition = {
+    definition: ''
+  };
+
   definitionElement.ul.forEach((val) => {
     // Skip example sentences for now
     if (val.$['data-sc-content'] === undefined) return;
+
+    definition.definition = val.li.join('; ');
 
     result.definitions.push({
       definition: val.li.join('; '),
     });
   });
+
+  if (definitionElement.span) {
+    definition.definitionTags = [];
+    definitionElement.span.forEach((el) => {
+      if (el.$['data-sc-code']) definition.definitionTags?.push(el.$['data-sc-code']);
+      else definition.definitionTags?.push(el._);
+    });
+  }
 }
