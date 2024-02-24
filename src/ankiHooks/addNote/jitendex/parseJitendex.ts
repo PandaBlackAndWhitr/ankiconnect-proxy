@@ -84,10 +84,6 @@ function parseDefinition(definitionElement: JitendexDefinition, result: ParsedDe
     if (val.$['data-sc-content'] === undefined) return;
 
     definition.definition = val.li.join('; ');
-
-    result.definitions.push({
-      definition: val.li.join('; '),
-    });
   });
 
   if (definitionElement.span) {
@@ -97,4 +93,6 @@ function parseDefinition(definitionElement: JitendexDefinition, result: ParsedDe
       else definition.definitionTags?.push(el._);
     });
   }
+
+  result.definitions.push(definition);
 }
