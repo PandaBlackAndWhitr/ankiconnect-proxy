@@ -1,0 +1,637 @@
+{
+  div: {
+    '$': { style: 'text-align: left;' },
+    i: [ '(priority-form, ★, Jitendex.org [2024-02-18])' ],
+    span: [
+      {
+        ul: [
+          {
+            '$': { lang: 'ja', style: 'list-style-type: "＊";' },
+            li: [
+              {
+                span: [
+                  {
+                    _: '5-dan',
+                    '$': {
+                      'data-sc-code': 'v5r',
+                      title: "Godan verb with 'ru' ending",
+                      style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: rgb(86, 86, 86); vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                    }
+                  },
+                  {
+                    _: 'intransitive',
+                    '$': {
+                      'data-sc-code': 'vi',
+                      title: 'intransitive verb',
+                      style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: rgb(86, 86, 86); vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                    }
+                  }
+                ],
+                ol: [
+                  {
+                    li: [
+                      {
+                        '$': { style: 'list-style-type: "① ";' },
+                        span: [
+                          {
+                            _: 'kana',
+                            '$': {
+                              'data-sc-code': 'uk',
+                              title: 'word usually written using kana alone',
+                              style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: brown; vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                            }
+                          }
+                        ],
+                        ul: [
+                          {
+                            '$': { 'data-sc-content': 'glossary' },
+                            li: [
+                              'to become',
+                              'to get',
+                              'to grow',
+                              'to turn',
+                              'to reach',
+                              'to attain'
+                            ]
+                          },
+                          {
+                            '$': {
+                              style: 'margin-bottom: 0.5em; list-style-type: none;'
+                            },
+                            li: [
+                              {
+                                _: 'あなたがいなくなるととてもしく。',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-a',
+                                  lang: 'ja',
+                                  style: 'font-size: 130%; border-style: none none none solid; border-radius: 0.4rem 0px 0px; margin-top: 0.5rem; padding-left: 0.75rem;'
+                                },
+                                ruby: [ { _: '寂', rt: [ 'さび' ] } ],
+                                span: [
+                                  {
+                                    '$': {
+                                      'data-sc-content': 'example-keyword'
+                                    },
+                                    ruby: [
+                                      {
+                                        _: 'なります',
+                                        rt: [
+                                          {
+                                            span: [
+                                              {
+                                                _: '●●●●',
+                                                '$': {
+                                                  style: 'color: crimson;'
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    _: '[1]',
+                                    '$': {
+                                      style: 'font-size: 0.5em; color: rgb(119, 119, 119); vertical-align: super; margin-left: -0.25em;'
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                _: "When you go, I'll miss you very much.",
+                                '$': {
+                                  'data-sc-content': 'example-sentence-b',
+                                  lang: 'en',
+                                  style: 'font-size: 80%; border-style: none none none solid; border-radius: 0px 0px 0px 0.4rem; padding-left: 0.75rem;'
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        '$': { style: 'list-style-type: "② ";' },
+                        span: [
+                          {
+                            _: 'kana',
+                            '$': {
+                              'data-sc-code': 'uk',
+                              title: 'word usually written using kana alone',
+                              style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: brown; vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                            }
+                          }
+                        ],
+                        ul: [
+                          {
+                            '$': { 'data-sc-content': 'glossary' },
+                            li: [
+                              'to result in',
+                              'to turn out',
+                              'to end up',
+                              'to prove (to be)'
+                            ]
+                          },
+                          {
+                            '$': {
+                              style: 'margin-bottom: 0.5em; list-style-type: none;'
+                            },
+                            li: [
+                              {
+                                _: '１週間してそのニュースは本当に。',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-a',
+                                  lang: 'ja',
+                                  style: 'font-size: 130%; border-style: none none none solid; border-radius: 0.4rem 0px 0px; margin-top: 0.5rem; padding-left: 0.75rem;'
+                                },
+                                span: [
+                                  {
+                                    '$': {
+                                      'data-sc-content': 'example-keyword'
+                                    },
+                                    ruby: [
+                                      {
+                                        _: 'なった',
+                                        rt: [
+                                          {
+                                            span: [
+                                              {
+                                                _: '●●●',
+                                                '$': {
+                                                  style: 'color: crimson;'
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    _: '[2]',
+                                    '$': {
+                                      style: 'font-size: 0.5em; color: rgb(119, 119, 119); vertical-align: super; margin-left: -0.25em;'
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                _: 'The news turned out true in a week.',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-b',
+                                  lang: 'en',
+                                  style: 'font-size: 80%; border-style: none none none solid; border-radius: 0px 0px 0px 0.4rem; padding-left: 0.75rem;'
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        '$': { style: 'list-style-type: "③ ";' },
+                        span: [
+                          {
+                            _: 'kana',
+                            '$': {
+                              'data-sc-code': 'uk',
+                              title: 'word usually written using kana alone',
+                              style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: brown; vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                            }
+                          }
+                        ],
+                        ul: [
+                          {
+                            '$': { 'data-sc-content': 'glossary' },
+                            li: [
+                              'to consist of',
+                              'to be composed of',
+                              'to be made up of'
+                            ]
+                          },
+                          {
+                            '$': {
+                              style: 'margin-bottom: 0.5em; list-style-type: none;'
+                            },
+                            li: [
+                              {
+                                _: 'as ...からなる or ...よりなる',
+                                '$': {
+                                  'data-sc-content': 'sense-note',
+                                  style: 'margin-top: 0.5em; list-style-type: "📝 ";'
+                                }
+                              },
+                              {
+                                _: '１チームは９人の選手から。',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-a',
+                                  lang: 'ja',
+                                  style: 'font-size: 130%; border-style: none none none solid; border-radius: 0.4rem 0px 0px; margin-top: 0.5rem; padding-left: 0.75rem;'
+                                },
+                                span: [
+                                  {
+                                    '$': {
+                                      'data-sc-content': 'example-keyword'
+                                    },
+                                    ruby: [
+                                      {
+                                        _: '成る',
+                                        rt: [
+                                          {
+                                            span: [
+                                              {
+                                                _: '●●',
+                                                '$': {
+                                                  style: 'color: crimson;'
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    _: '[3]',
+                                    '$': {
+                                      style: 'font-size: 0.5em; color: rgb(119, 119, 119); vertical-align: super; margin-left: -0.25em;'
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                _: 'Nine players make up a team.',
+                                '$': {
+                                  'data-sc-content': 'example-sentence-b',
+                                  lang: 'en',
+                                  style: 'font-size: 80%; border-style: none none none solid; border-radius: 0px 0px 0px 0.4rem; padding-left: 0.75rem;'
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        '$': { style: 'list-style-type: "④ ";' },
+                        span: [
+                          {
+                            _: 'kana',
+                            '$': {
+                              'data-sc-code': 'uk',
+                              title: 'word usually written using kana alone',
+                              style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: brown; vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                            }
+                          }
+                        ],
+                        ul: [
+                          {
+                            '$': { 'data-sc-content': 'glossary' },
+                            li: [
+                              'to be completed',
+                              'to be realized',
+                              'to succeed',
+                              'to be attained',
+                              'to be accomplished'
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        '$': { style: 'list-style-type: "⑤ ";' },
+                        span: [
+                          {
+                            _: 'kana',
+                            '$': {
+                              'data-sc-code': 'uk',
+                              title: 'word usually written using kana alone',
+                              style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: brown; vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                            }
+                          }
+                        ],
+                        ul: [
+                          {
+                            '$': { 'data-sc-content': 'glossary' },
+                            li: [
+                              'to change (into)',
+                              'to turn (into)',
+                              'to transform'
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        '$': { style: 'list-style-type: "⑥ ";' },
+                        span: [
+                          {
+                            _: 'kana',
+                            '$': {
+                              'data-sc-code': 'uk',
+                              title: 'word usually written using kana alone',
+                              style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: brown; vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                            }
+                          }
+                        ],
+                        ul: [
+                          {
+                            '$': { 'data-sc-content': 'glossary' },
+                            li: [
+                              'to come (to do)',
+                              'to begin (to do)',
+                              'to grow (to do)'
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        '$': { style: 'list-style-type: "⑦ ";' },
+                        span: [
+                          {
+                            _: 'kana',
+                            '$': {
+                              'data-sc-code': 'uk',
+                              title: 'word usually written using kana alone',
+                              style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: brown; vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                            }
+                          }
+                        ],
+                        ul: [
+                          {
+                            '$': { 'data-sc-content': 'glossary' },
+                            li: [
+                              'to come to',
+                              'to amount to',
+                              'to add up to',
+                              'to make'
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        '$': { style: 'list-style-type: "⑧ ";' },
+                        span: [
+                          {
+                            _: 'kana',
+                            '$': {
+                              'data-sc-code': 'uk',
+                              title: 'word usually written using kana alone',
+                              style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: brown; vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                            }
+                          }
+                        ],
+                        ul: [
+                          {
+                            '$': { 'data-sc-content': 'glossary' },
+                            li: [ 'to play (the part of)', 'to act as' ]
+                          }
+                        ]
+                      },
+                      {
+                        '$': { style: 'list-style-type: "⑨ ";' },
+                        span: [
+                          {
+                            _: 'kana',
+                            '$': {
+                              'data-sc-code': 'uk',
+                              title: 'word usually written using kana alone',
+                              style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: brown; vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                            }
+                          }
+                        ],
+                        ul: [
+                          {
+                            '$': { 'data-sc-content': 'glossary' },
+                            li: [
+                              'to be used for',
+                              'to be useful for',
+                              'to serve as'
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        '$': { style: 'list-style-type: "⑩ ";' },
+                        span: [
+                          {
+                            _: 'shōgi',
+                            '$': {
+                              'data-sc-code': 'shogi',
+                              title: 'shogi',
+                              style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: purple; vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                            }
+                          }
+                        ],
+                        ul: [
+                          {
+                            '$': {
+                              'data-sc-content': 'glossary',
+                              style: 'padding-left: 0px; list-style-type: none;'
+                            },
+                            li: [ 'to be promoted' ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                span: [
+                  {
+                    _: 'aux-verb',
+                    '$': {
+                      'data-sc-code': 'aux-v',
+                      title: 'auxiliary verb',
+                      style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: rgb(86, 86, 86); vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                    }
+                  },
+                  {
+                    _: '5-dan',
+                    '$': {
+                      'data-sc-code': 'v5r',
+                      title: "Godan verb with 'ru' ending",
+                      style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: rgb(86, 86, 86); vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                    }
+                  },
+                  {
+                    _: 'honorific',
+                    '$': {
+                      'data-sc-code': 'hon',
+                      title: 'honorific or respectful (sonkeigo) language',
+                      style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: brown; vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                    }
+                  },
+                  {
+                    _: 'kana',
+                    '$': {
+                      'data-sc-code': 'uk',
+                      title: 'word usually written using kana alone',
+                      style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: brown; vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                    }
+                  }
+                ],
+                ol: [
+                  {
+                    li: [
+                      {
+                        '$': { style: 'list-style-type: "⑪ ";' },
+                        ul: [
+                          {
+                            '$': {
+                              'data-sc-content': 'glossary',
+                              style: 'padding-left: 0px; list-style-type: none;'
+                            },
+                            li: [ 'to do ...' ]
+                          },
+                          {
+                            '$': {
+                              style: 'margin-bottom: 0.5em; list-style-type: none;'
+                            },
+                            li: [
+                              {
+                                _: 'as お + masu stem + になる, or ご + noun + になる',
+                                '$': {
+                                  'data-sc-content': 'sense-note',
+                                  style: 'margin-top: 0.5em; list-style-type: "📝 ";'
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                '$': { 'data-sc-content': 'forms' },
+                span: [
+                  {
+                    _: 'forms',
+                    '$': {
+                      title: 'spelling and reading variants',
+                      style: 'font-weight: bold; font-size: 0.8em; color: white; background-color: rgb(86, 86, 86); vertical-align: text-bottom; border-radius: 0.3em; margin-right: 0.25rem; padding: 0.2em 0.3em; word-break: keep-all; cursor: help;'
+                    }
+                  }
+                ],
+                div: [
+                  {
+                    '$': { style: 'font-size: 1.2em; margin-top: 0.2em;' },
+                    div: [
+                      {
+                        '$': { style: 'display:block;' },
+                        table: [
+                          {
+                            '$': {
+                              style: 'table-layout:auto;border-collapse:collapse;'
+                            },
+                            tr: [
+                              {
+                                th: [
+                                  {
+                                    '$': {
+                                      style: 'font-weight:bold;border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;font-weight: normal; text-align: center;'
+                                    }
+                                  },
+                                  {
+                                    _: '成る',
+                                    '$': {
+                                      style: 'font-weight:bold;border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;font-weight: normal; text-align: center;'
+                                    }
+                                  },
+                                  {
+                                    _: '為る',
+                                    '$': {
+                                      style: 'font-weight:bold;border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;font-weight: normal; text-align: center;'
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                th: [
+                                  {
+                                    _: 'なる',
+                                    '$': {
+                                      style: 'font-weight:bold;border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;font-weight: normal;'
+                                    }
+                                  }
+                                ],
+                                td: [
+                                  {
+                                    '$': {
+                                      style: 'border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;text-align: center;'
+                                    },
+                                    span: [
+                                      {
+                                        _: '優',
+                                        '$': {
+                                          title: 'high priority form',
+                                          style: 'color: white; background-color: green; border-color: green; border-style: solid; border-radius: 100%; border-width: 0.75px; padding: 0.15em 0.15em 0.05em; cursor: help;'
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    '$': {
+                                      style: 'border-style:solid;padding:0.25em;vertical-align:top;border-width:1px;border-color:currentColor;text-align: center;'
+                                    },
+                                    span: [
+                                      {
+                                        _: '稀',
+                                        '$': {
+                                          title: 'rarely used form',
+                                          style: 'color: white; background-color: purple; border-color: purple; border-style: solid; border-radius: 100%; border-width: 0.75px; padding: 0.15em 0.15em 0.05em; cursor: help;'
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        div: [
+          {
+            _: 'sources:  | Tatoeba ',
+            '$': {
+              'data-sc-content': 'attribution',
+              style: 'font-size: 0.7em; text-align: right;'
+            },
+            a: [
+              {
+                '$': {
+                  href: 'https://www.edrdg.org/jmwsgi/entr.py?svc=jmdict&q=1375610'
+                },
+                span: [ 'JMdict', { '$': { style: 'display:none;' } } ]
+              },
+              {
+                '$': {
+                  href: 'https://tatoeba.org/en/sentences/show/236891'
+                },
+                span: [ '[1]', { '$': { style: 'display:none;' } } ]
+              },
+              {
+                '$': {
+                  href: 'https://tatoeba.org/en/sentences/show/235765'
+                },
+                span: [ '[2]', { '$': { style: 'display:none;' } } ]
+              },
+              {
+                '$': {
+                  href: 'https://tatoeba.org/en/sentences/show/235851'
+                },
+                span: [ '[3]', { '$': { style: 'display:none;' } } ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

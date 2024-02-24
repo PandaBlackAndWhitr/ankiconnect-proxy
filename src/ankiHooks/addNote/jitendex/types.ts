@@ -1,7 +1,7 @@
 // -------------------------------------------
 // GLOSSARY
 
-import { PartsOfSpeech } from '../jel/partsOfSpeech';
+import { PartsOfSpeech, isPartOfSpeech } from '../jel/partsOfSpeech';
 
 // -------------------------------------------
 export type JitendexGlossary = (JitendexDefinitionGroup | JitendexFormsTable | JitendexAttributions);
@@ -89,7 +89,7 @@ export type JitendexDefinitionGroupTag = {
 type PartOfSpeechDataCode = { $: { 'data-sc-code': PartsOfSpeech } };
 
 export function tagIsPartOfSpeech(tag: JitendexDefinitionGroupTag): tag is JitendexDefinitionGroupTag & PartOfSpeechDataCode {
-  return tag.$['data-sc-code'] !== undefined;
+  return tag.$['data-sc-code'] !== undefined && isPartOfSpeech(tag.$['data-sc-code']);
 }
 
 // -------------------------------------------
