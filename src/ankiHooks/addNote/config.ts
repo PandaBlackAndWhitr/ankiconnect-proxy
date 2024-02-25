@@ -7,6 +7,7 @@ export type AddNoteMappingConfig = {
     // Kanji expression
     expression: string,
     partsOfSpeech?: string,
+    displayKanaRepresentation?: string,
   },
   tags: {
     // Add tags about parts of speech
@@ -31,6 +32,7 @@ export const defaultAddNoteMappingConfig : AddNoteMappingConfig = {
     glossary: 'English',
     expression: 'Kanji',
     partsOfSpeech: 'Part of Speech',
+    displayKanaRepresentation: 'Display Kana',
   },
   tags: {
     partsOfSpeech: {
