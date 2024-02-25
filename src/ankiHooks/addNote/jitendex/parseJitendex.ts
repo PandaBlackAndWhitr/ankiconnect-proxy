@@ -52,6 +52,8 @@ function parseDefinitionGroup(group: JitendexDefinitionGroup, result: ParsedGlos
   // TODO: May need normalization (eg. for Godan verbs, will save them separately)
   // Get all parts of Speech
   group.span.forEach((el) => {
+    if (definitionIsKanaRepresentation(el)) result.containsDefinitionWithKanaRepresentation = true;
+
     if (tagIsPartOfSpeech(el)) {
       result.partsOfSpeech.push(el.$['data-sc-code']);
       definitionGroup.partsOfSpeech.push(el.$['data-sc-code']);
