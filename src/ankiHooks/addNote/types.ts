@@ -43,6 +43,7 @@ export type ParsedDefinition = {
 export type ParsedForms = {};
 
 export type ParsedGlossary = {
+  containsDefinitionWithKanaRepresentation: boolean,
   partsOfSpeech: PartsOfSpeech[],
   definitionGroups: ParsedDefinitionGroup[],
 };

@@ -1,7 +1,7 @@
 import { removeDuplicates } from '../../../utils';
 import type { ParsedDefinition, ParsedDefinitionGroup, ParsedGlossary } from '../types';
 
-import type { JitendexDefinition, JitendexGlossary, JitendexDefinitionGroup } from './types';
+import type { JitendexDefinition, JitendexGlossary, JitendexDefinitionGroup, JitendexTag } from './types';
 
 import { isDefinitionGroup, isFormsTable, tagIsPartOfSpeech } from './types';
 
@@ -9,6 +9,7 @@ export function parseJitendex(data: any): ParsedGlossary {
   const topLevel: any = data.div.span[0];
 
   const parsed: ParsedGlossary = {
+    containsDefinitionWithKanaRepresentation: false,
     partsOfSpeech: [],
     definitionGroups: [],
   };
@@ -63,10 +64,10 @@ function parseDefinitionGroup(group: JitendexDefinitionGroup, result: ParsedGlos
   });
 
   // Build definition
-  if (group.div) parseDefinition(group.div[0], definitionGroup);
+  if (group.div) parseDefinition(group.div[0], definitionGroup, result);
   else {
     group.ol[0].li.forEach((definitionElement) => {
-      parseDefinition(definitionElement, definitionGroup);
+      parseDefinition(definitionElement, definitionGroup, result);
     });
   }
 
@@ -74,7 +75,7 @@ function parseDefinitionGroup(group: JitendexDefinitionGroup, result: ParsedGlos
   result.definitionGroups.push(definitionGroup);
 }
 
-function parseDefinition(definitionElement: JitendexDefinition, result: ParsedDefinitionGroup) {
+function parseDefinition(definitionElement: JitendexDefinition, group: ParsedDefinitionGroup, result: ParsedGlossary) {
   const definition: ParsedDefinition = {
     definition: ''
   };
@@ -89,10 +90,22 @@ function parseDefinition(definitionElement: JitendexDefinition, result: ParsedDe
   if (definitionElement.span) {
     definition.definitionTags = [];
     definitionElement.span.forEach((el) => {
+      if (definitionIsKanaRepresentation(el)) result.containsDefinitionWithKanaRepresentation = true;
       if (el.$['data-sc-code']) definition.definitionTags?.push(el.$['data-sc-code']);
       else definition.definitionTags?.push(el._);
     });
   }
 
-  result.definitions.push(definition);
+  group.definitions.push(definition);
+}
+
+// TODO:
+function parseTags(span: JitendexTag[]) {
+
+}
+
+// TODO: hardcode???
+function definitionIsKanaRepresentation(el: JitendexTag): boolean {
+  if (el.$['data-sc-code'] && el.$['data-sc-code'] === 'uk') return true;
+  return false;
 }

@@ -29,6 +29,10 @@ export const AddNoteActionHook: AnkiActionHook<'addNote', AddNoteAnkiPayload> = 
       note.fields[config.fields.partsOfSpeech] = glossary.partsOfSpeech.join(',');
     }
 
+    if (config.fields.displayKanaRepresentation !== undefined) {
+      note.fields[config.fields.displayKanaRepresentation] = glossary.containsDefinitionWithKanaRepresentation ? '1' : '';
+    }
+
     handleTags(glossary, config.tags, note);
 
     // Logging (used when debugging)
