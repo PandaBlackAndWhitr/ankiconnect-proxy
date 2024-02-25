@@ -13,7 +13,8 @@ export function writeGlossaryField(glossary: ParsedGlossary): string {
     const tags = definitionGroupTags(group, includePartsOfSpeech);
 
     group.definitions.forEach((def) => {
-      retVal+=`${defNumber}. ${definitionToString(def, tags)}${defNumber === totalDefinitions ? '' : '<br/>'}`
+      retVal += `${defNumber}. ${definitionToString(def, tags)}${defNumber === totalDefinitions ? '' : '<br/>'}`;
+      defNumber++;
     });
   });
 
